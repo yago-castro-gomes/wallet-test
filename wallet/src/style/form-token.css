@@ -1,0 +1,79 @@
+#add-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-back{
+    background-color: #646464;
+    color: white;
+}
+
+.form-wallet{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.title-page{
+    display: flex;
+    width: 10em;
+    font-size: 23px;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.label-container{
+    width: 100%;
+    align-self: center;
+    margin-top: 2em;
+}
+
+.title-label{
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input{
+    width: 100%;
+    border-radius: 5px;
+    height: 2.2em;
+    padding: 0;
+    font-size: 20px;
+}
+
+.form-input:focus{
+    outline-color: #aa33b5;
+}
+
+
+#btn-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 2em;
+}
+
+#btn-save{
+    background-color: #aa33b5;
+}
+
+#btn-container-edit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+#btn-remove{
+    background-color: #920000;
+}
+
+#btn-save:disabled, #btn-container-edit:disabled {
+    background-color: #646464;
+}

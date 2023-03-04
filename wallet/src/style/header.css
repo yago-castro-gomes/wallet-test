@@ -1,0 +1,45 @@
+#header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 63vh;
+    margin-top: 6vh;
+}
+
+#logo-klever{
+    display: flex;
+    justify-content: center;
+}
+
+#logo-name{
+    width: 18vh;
+}
+
+#wish-wallet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+#shooting-star{
+    width: 4vh;
+    margin-right: 1vh;
+}
+
+#wish-logo{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+button {
+    width: 12vh;
+    height: 4vh;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 550;
+}

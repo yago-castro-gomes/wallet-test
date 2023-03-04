@@ -1,0 +1,49 @@
+table {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 7vh;
+}
+
+table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+table th {
+    font-size: 18px;
+}
+
+#token-title{
+    width: 7em;
+}
+
+table tbody {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 18px;
+    font-weight: 500;
+}
+
+#token-name {
+    display: flex;
+}
+
+#edit-container {
+    display: flex;
+    align-items: center;
+    background: transparent;
+
+}
+
+#edit-btn {
+    background-image: url('../assets/edit.svg');
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+}
